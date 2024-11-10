@@ -65,6 +65,9 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            
+            Text("Сервер VPN")
+                .padding()
             TextField("IP-адрес сервера VPN", text: $ipAddress)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                             .padding()
